@@ -10,7 +10,7 @@ var beforeEach = lab.beforeEach
 
 var dotenvExpand = require('../lib/main')
 
-describe('dotenv-expand', function () {
+describe('expand-dotenv', function () {
   describe('unit tests', function () {
     it('returns object', function (done) {
       var dotenv = { parsed: {} }

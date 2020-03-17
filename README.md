@@ -1,11 +1,11 @@
-# dotenv-expand
+# expand-dotenv
 
-<img src="https://raw.githubusercontent.com/motdotla/dotenv-expand/master/dotenv-expand.png" alt="dotenv-expand" align="right" />
+<img src="https://raw.githubusercontent.com/motdotla/dotenv-expand/master/dotenv-expand.png" alt="expand-dotenv" align="right" />
 
-Dotenv-expand adds variable expansion on top of 
+expand-dotenv adds variable expansion on top of 
 [dotenv](http://github.com/motdotla/dotenv). If you find yourself needing to
 expand environment variables already existing on your machine, then
-dotenv-expand is your tool.
+expand-dotenv is your tool.
 
 [![BuildStatus](https://img.shields.io/travis/motdotla/dotenv-expand/master.svg?style=flat-square)](https://travis-ci.org/motdotla/dotenv-expand)
 [![NPM version](https://img.shields.io/npm/v/dotenv-expand.svg?style=flat-square)](https://www.npmjs.com/package/dotenv-expand)
@@ -15,17 +15,17 @@ dotenv-expand is your tool.
 
 ```bash
 npm install dotenv --save
-npm install dotenv-expand --save
+npm install expand-dotenv --save
 ```
 
 ## Usage
 
-As early as possible in your application, require dotenv and dotenv-expand, and
-wrap dotenv-expand around dotenv.
+As early as possible in your application, require dotenv and expand-dotenv, and
+wrap expand-dotenv around dotenv.
 
 ```js
 var dotenv = require('dotenv')
-var dotenvExpand = require('dotenv-expand')
+var dotenvExpand = require('expand-dotenv')
 
 var myEnv = dotenv.config()
 dotenvExpand(myEnv)

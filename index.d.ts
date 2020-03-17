@@ -1,7 +1,7 @@
 export = dotenv_expand;
 
 interface DotenvResult {
-    error?: Error;
+    ignoreProcessEnv?: boolean;
     parsed?: {
         [name: string]: string;
     };
